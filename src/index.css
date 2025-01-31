@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center {
+    @apply flex justify-between items-center
+}
+
+.active {
+    background-color: #1abc9c;
+    ;
+    border-radius: 7px;
+}
+.row {
+    @apply flex justify-between items-center flex-wrap
+}
